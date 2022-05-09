@@ -14,7 +14,6 @@ frontend:
       - "npm install -g gatsby-cli"
     preBuild:
       commands:
-        - n 14
         - npm ci
     build:
       commands:
