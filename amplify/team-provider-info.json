@@ -14,6 +14,12 @@
     "categories": {
       "auth": {
         "gatsbyblog595befa5": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "dv450y0bjb5r4",
+          "type": "cicd"
+        }
       }
     }
   }

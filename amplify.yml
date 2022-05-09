@@ -7,6 +7,11 @@ backend:
         - amplifyPush --simple
 frontend:
   phases:
+  install:
+    commands:
+      - "touch .npmignore"
+      - n 14.19.1
+      - "npm install -g gatsby-cli"
     preBuild:
       commands:
         - n 14
