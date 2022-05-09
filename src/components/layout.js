@@ -1,7 +1,7 @@
 import * as React from "react"
 import { Link } from "gatsby"
 
-const Layout = ({ location, title, children }) => {
+const Layout = ({ location, title, isDashboard, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
   const isRootPath = location.pathname === rootPath
   let header
@@ -22,6 +22,17 @@ const Layout = ({ location, title, children }) => {
 
   return (
     <div className="global-wrapper" data-is-root-path={isRootPath}>
+      {!isDashboard && (
+        <div
+          style={{
+            position: `fixed`,
+            top: `8px`,
+            right: `16px`,
+          }}
+        >
+          <Link to="/dashboard">Dashboard</Link>
+        </div>
+      )}
       <header className="global-header">{header}</header>
       <main>{children}</main>
       <footer>
