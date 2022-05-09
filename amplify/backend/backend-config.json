@@ -1,6 +1,6 @@
 {
   "auth": {
-    "blog33e2783c": {
+    "gatsbyblog595befa5": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],

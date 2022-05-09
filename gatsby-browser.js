@@ -10,6 +10,6 @@ import "./src/style.css"
 import "prismjs/themes/prism.css"
 
 // Amplify config for
-import Amplify, { Auth } from 'aws-amplify';
-import awsConfig from './src/aws-exports';
-Amplify.configure(awsConfig);
+// import Amplify, { Auth } from 'aws-amplify';
+// import awsConfig from './src/aws-exports';
+// Amplify.configure(awsConfig);
