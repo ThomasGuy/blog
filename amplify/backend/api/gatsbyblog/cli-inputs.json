@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "gatsbyblog",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/home/sport22/apps_2022/aws/blog/amplify/backend/api/gatsbyblog/schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 7
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "AMAZON_COGNITO_USER_POOLS",
+        "cognitoUserPoolId": "authgatsbyblog595befa5"
+      }
+    ]
+  }
+}
